@@ -31,7 +31,7 @@ linkdin_username: Jesús Eduardo Valenzuela Urióstegui
 github_username: EduardoVU
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
