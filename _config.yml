@@ -32,6 +32,9 @@ github_username: EduardoVU
 
 # Build settings
 #theme: minima
+####################
+####################
+author: Jesús Eduardo Valenzuela 
 plugins:
   - jekyll-feed
 
