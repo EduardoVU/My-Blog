@@ -28,7 +28,7 @@ baseurl: "/My-Blog" # the subpath of your site, e.g. /blog
 url: "https://eduardovu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 linkdin_username: Jesús Eduardo Valenzuela Urióstegui
-github_username:  EduardoVU
+github_username: EduardoVU
 
 # Build settings
 theme: minima
