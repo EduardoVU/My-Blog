@@ -20,8 +20,8 @@
 
 title: My Blog
 email: eduardo.ur97@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Mechatronics Engineer specialized in automation and robotics with English as a second language. Currently, I’m in Encora’s apprentice program where I’m in the full-stack developer track.
+description: >- # this means to ignore newlines until "baseurl:
+  Mechatronics Engineer specialized in automation and robotics with English as a second language. Currently, I’m in Encora’s apprentice program in the software engineer intership.
 baseurl: "/My-Blog" # the subpath of your site, e.g. /blog 
 url: "https://eduardovu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
