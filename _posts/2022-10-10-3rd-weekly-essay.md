@@ -4,7 +4,7 @@ title:  "3rd weekly essay"
 date:   2022-10-10 19:25:30 -0700
 categories: jekyll update
 ---
-
+owo
 In this essay, I will talk about my work during the third week, that mainly consists of an advance in homework, studying a new programming language, and teamwork skills.
 
 First, I worked on two tasks, one of them was in team. Therefore, we had an online meeting with the teammates, where we agreed on the work that each one was responsible for.
