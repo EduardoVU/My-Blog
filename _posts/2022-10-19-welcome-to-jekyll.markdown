@@ -16,11 +16,20 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+def solve():
+    #N, K = list(map(int, input().split(" ")))
+    #R, P = list(map(int, input().split(" ")))
+    
+    temporal = str(input())
+    splitted = temporal.split(" ")
+    N = int(splitted[0])
+    K = int(splitted[1])
+
+    temporal_o = str(input())
+    splitted_o = temporal_o.split(" ")
+
+    R = int(splitted_o[0])
+    P = int(splitted_o[1])
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
