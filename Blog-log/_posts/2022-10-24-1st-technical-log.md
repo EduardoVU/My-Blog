@@ -2,10 +2,10 @@
 layout: post
 title:  "Individual contribution Log"
 date:   2022-10-10 19:25:30 -0700
-category: log
+category: tech log
 ---
 
-#OVERVIEW# 
+´OVERVIEW´
  
 In this work, we were given a choice between three problems that are part of "Google Code Jam 2022" in the "Round 1A" section. The chosen problem was "Double or one thing". Google Code Jam is an international programming competition organized and administered by Google. The challenges presented by this competition are free reading, so the next section of this blog will provide the reader with a detailed introduction to the problem presented with its respective solution.
  

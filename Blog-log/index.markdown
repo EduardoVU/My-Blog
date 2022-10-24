@@ -4,5 +4,5 @@
 
 layout: home-log
 title: "Technical logs"
-category: log
+category: tech log
 ---
