@@ -5,11 +5,11 @@ date:   2022-10-23 19:25:30 -0700
 category: tech log
 ---
 
-<h2>OVERVIEW</h2>
+<h2 style = text-align: center>OVERVIEW</h2>
  
 In this work, we were given a choice between three problems that are part of "Google Code Jam 2022" in the "Round 1A" section. The chosen problem was "Double or one thing". Google Code Jam is an international programming competition organized and administered by Google. The challenges presented by this competition are free reading, so the next section of this blog will provide the reader with a detailed introduction to the problem presented with its respective solution.
  
-`CONTEXT`
+<h2>`CONTEXT`</h2>
  
 The chosen problem is called double or one thing and consists of an algorithm based mainly on the ordering and selection of character strings. The program starts working when the user gives the computer words or character strings as input. The number of strings that the code will work with will also be provided by the user in advance of the declaration of the characters. It is important to mention that each typed letter must be capitalized by the user. The statement of the problem indicates that depending on the string launched, one or more letters must be duplicated or left as is. The objective is that of all the possibilities of duplication by letter already ordered alphabetically (or lexicographically) the first option must be chosen.
 The above can be illustrated with the following example, the combination of duplicates in the word "SUN" has a total of 8 possibilities:
