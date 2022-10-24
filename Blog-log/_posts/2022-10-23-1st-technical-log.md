@@ -74,7 +74,7 @@ The variable “counter” will be used to count consecutive letters that are re
 
 Now we will make use of another “for” loop that will help us go through each hidden letter in "word" without considering the last letter. Inside the loop, we place a conditional so that the counter increases by 1 when the evaluated letter is equal to the next one. We can see that a list with the format [letter, times repeated] is added inside "couple" and the counter is reset to 1. Outside the loop, the list is added again to "couple" the last letter of "word" with the number of times repeated.
  
-For example, if the word is "COUNTER", the "even" list will have the form [[B, 1], [O, 2], [K, 2], [E, 2], [P, 1], [E, 1], [R, 1]].
+For example, if the word is "BOOKKEEPER", the "even" list will have the form [[B, 1], [O, 2], [K, 2], [E, 2], [P, 1], [E, 1], [R, 1]].
  
 The next and last “for” cycle of the code consider the dimension of the “couple” variable and 1 is subtracted from it so as not to add or modify the final letter. The reason for this is that alphabetically speaking, the evaluation scrolls to the right (which is not convenient), plus this prevents the next comparison from going outside the bounds of the list dimension, where it scrolls from the first element up to the penultimate of “couple”.
 
