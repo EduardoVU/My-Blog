@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Individual contribution Log"
+title:  "1st technical log"
 date:   2022-10-23 19:25:30 -0700
 category: tech log
 ---
@@ -15,12 +15,19 @@ The chosen problem is called double or one thing and consists of an algorithm ba
 The above can be illustrated with the following example, the combination of duplicates in the word "SUN" has a total of 8 possibilities:
 
 1.- SUN 
+
 2.- SUNN 
+
 3.- SUUN 
+
 4.- SUUNN 
+
 5.- SSUN
+
 6.- SSUNN 
+
 7.- SSUUN 
+
 8.- SSUUNN
 
 After an alphabetical ordering of the sequence of previous words, we will obtain the string “SSUN” as an answer for this example, since this is the first of our already ordered list.
