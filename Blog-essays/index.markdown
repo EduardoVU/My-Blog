@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-essays
-title: "Essays Blog"
+title: "Essays blog"
 category: weekly essay
 ---
