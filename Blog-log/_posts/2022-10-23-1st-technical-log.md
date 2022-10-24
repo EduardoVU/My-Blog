@@ -5,11 +5,11 @@ date:   2022-10-23 19:25:30 -0700
 category: tech log
 ---
 
-<h2 style = text-align: center>OVERVIEW</h2>
+<h2>OVERVIEW</h2>
  
 In this work, we were given a choice between three problems that are part of "Google Code Jam 2022" in the "Round 1A" section. The chosen problem was "Double or one thing". Google Code Jam is an international programming competition organized and administered by Google. The challenges presented by this competition are free reading, so the next section of this blog will provide the reader with a detailed introduction to the problem presented with its respective solution.
  
-<h2>`CONTEXT`</h2>
+<h2>CONTEXT</h2>
  
 The chosen problem is called double or one thing and consists of an algorithm based mainly on the ordering and selection of character strings. The program starts working when the user gives the computer words or character strings as input. The number of strings that the code will work with will also be provided by the user in advance of the declaration of the characters. It is important to mention that each typed letter must be capitalized by the user. The statement of the problem indicates that depending on the string launched, one or more letters must be duplicated or left as is. The objective is that of all the possibilities of duplication by letter already ordered alphabetically (or lexicographically) the first option must be chosen.
 The above can be illustrated with the following example, the combination of duplicates in the word "SUN" has a total of 8 possibilities:
@@ -34,7 +34,7 @@ After an alphabetical ordering of the sequence of previous words, we will obtain
 
 The result must be expressed in the following format: “Case #1: SSUN”, where the value of the number expressed after the Case# will of course vary depending on the number of cases. In addition, it must give results in less than 2 seconds.
 
-`SOLUTION`
+<h2>SOLUTION</h2>
 
 The solution consists in taking the number of cases that will be obtained (in this way, we will know how many words or strings of characters will be evaluated.) and obtaining the word so that the program performs the necessary operations and print the result in the format already indicated. Next, we evaluate character by character and check if the next character we are evaluating is greater than or less than. From here, there are three possibilities. If the current character is less than the next then there will be duplication, on the other hand, if the current character is the same as the next then the evaluated character will now be the next. In the case where the character is older then there will be no duplication.
  
@@ -94,6 +94,6 @@ The next and last “for” cycle of the code consider the dimension of the “c
 The "if" statement compares the letter of the array containing the letter and its repetition number with the next array. If alphabetically the current letter goes first then we multiply by 2 the number of times that determined letter and in turn, the result of the product will be multiplied by the letter stored in the "doubled" variable. If the letter within "pair" is greater than the next, that same letter multiplied by the repeated times is added to "duplicate".
 Outside the loop, we add the last letter and its repetitions. Finally, the result is printed in the format specified above.
 
-`ALTERNATIVE SOLUTIONS`
+<h2>ALTERNATIVE SOLUTIONS</h2>
 
 An alternative procedure may be to create a list of all possibilities and use python's "min()" function (which returns the minimum value of any dataset automatically), however, although the procedure works at runtime is greater and if the word exceeds a certain number of characters, it is impossible to obtain the result in less than 2 seconds.
