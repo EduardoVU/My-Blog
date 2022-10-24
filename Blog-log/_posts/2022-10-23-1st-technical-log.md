@@ -86,7 +86,6 @@ The next and last “for” cycle of the code consider the dimension of the “c
         else:
             doubled = doubled + couple[j][1] * couple[j][0]
     doubled = doubled + couple[-1][1] * couple[-1][0]
-    #print(doubled)f
     print(f"Case #{i + 1}: {doubled}")
 
 {% endhighlight %}
