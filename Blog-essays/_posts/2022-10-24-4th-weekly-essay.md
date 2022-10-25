@@ -5,6 +5,8 @@ date:   2022-10-24 12:25:30 -0700
 category: weekly essay
 ---
 
+In this essay, I will talk about my experience during week number 4 in the apprentice program. The principal subjects I am going to emphasize will be teamwork and management of time.
+
 First, I had to continue working with Google Code Jam tasks in different programming languages. I mainly focused on “Dart”. It was a little bit hard, I´m used to work in python, which has a lot of functions and methods, and changing to another language that has different syntaxis made me struggle, but at the end, I’m happy that me and my team solved all the problems in the different programming languages. This experience taught me that helping other members of the team also makes me learn how to do a better job.
 
 Additionally, one of the tasks was to create a blog where I will be posting the different essays and technical logs I will be writing during the apprenticeship. Was fun working on it and also made me learn a little bit more about GitHub. It was something new for me, but at least I’m moving on it. I see a window of improvement in my writing in every post on my blog, I´m willing to improve on that aspect of myself.
