@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "4th weekly essay"
-date:   2022-10-24 19:25:30 -0700
+date:   2022-10-24 12:25:30 -0700
 category: weekly essay
 ---
 
